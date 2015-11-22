@@ -1,0 +1,44 @@
+---
+title: "Documentaion for Shiny Application"
+author: "SM"
+date: "Sunday, November 22, 2015"
+output: html_document
+---
+
+## Overview
+This is a R Markdown document careated as part of the Coursera project for 'Developing Data products'.
+The objective is to write a shiny application with associated supporting documentation. The 
+documentation should be thought of as whatever:
+
+    1.a user will need to get started using the application.
+    2.Deploy the application on Rstudio's shiny server.
+    3.Share the application link by pasting it into the text box provided in the assigment page.
+    4.Share your server.R and ui.R code on github.
+    
+The application must include the following:
+
+    1.Some form of input (widget: textbox, radio button, checkbox, ...)
+    2.Some operation on the ui input in sever.R
+    3.Some reactive output displayed as a result of server calculations
+    4.Enough documentation so that a novice user could use the application.
+    
+
+## Description
+
+This application is a simple calculation to find maximum value from a list of input values
+
+## Usage
+
+1. Enter 1st number
+2. Enter 2nd number
+3. Enter 3rd number
+4. Enter 4th number
+5. Enter 5th number
+5. Click on Submit button
+
+## Result
+
+The entered numbers and the maximum value among these numbers will be displayed on the righ panel.
+
+
+
